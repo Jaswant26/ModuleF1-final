@@ -33,6 +33,9 @@ nav > img {
   list-style: none;
   padding-inline: 15px;
 }
+.nav-list{
+  align-items: center;
+}
 .nav-ul > button {
   border-radius: 8px;
   border: 2px solid #2f80ed;
@@ -441,6 +444,75 @@ nav > img {
   line-height: 150%;
   letter-spacing: -0.63px;
 }
+#hiring-partner-section
+{
+    width: 100%;
+    height: 750px;
+    padding: 70px;
+    background-color: white;
+}
+.hiring-head
+{
+    text-align: center;
+    line-height: 30px;
+}
+.hiring-head > h5
+{
+    color: #992FED;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+}
+.hiring-head > h1{
+    color: #2B2F34;
+    font-size: 42px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 63px;
+}
+.hiring-head > h2{
+    color: #2F80ED;
+    font-size: 42px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 60px;
+}
+.hiring-head > p{
+    color: #595959;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.40px;
+    letter-spacing: 0.36px;
+}
+marquee
+{
+    margin-top: 60px;
+   
+}
+marquee >img
+{
+    width: 200px;
+    height: 50px;
+    margin-right: 40px;
+}
+#report
+{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#report > span
+{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+    color: white;
+    background-color: #2F80ED;
+    border-radius: 10px;
+}
+
 .acciojob {
   color: #595959;
   font-size: 18px;
@@ -598,5 +670,8 @@ nav > img {
   .hero-button {
     text-align: center;
     margin-bottom: 20px;
+  }
+  .course-2{
+    margin-top: 20px;
   }
 }
