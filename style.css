@@ -33,7 +33,7 @@ nav > img {
   list-style: none;
   padding-inline: 15px;
 }
-.nav-list{
+.nav-list {
   align-items: center;
 }
 .nav-ul > button {
@@ -129,14 +129,14 @@ nav > img {
   padding-right: 10px;
 }
 #blur-background {
-  position:relative;
+  position: relative;
   width: 40%;
   height: 90%;
-  padding:5%;
+  padding: 5%;
   background: linear-gradient(135deg, #fff, #ffe, #ffd);
   backdrop-filter: blur(10px);
   z-index: -1;
-
+  align-items: center;
 }
 .package-content > img {
   width: 40px;
@@ -213,6 +213,7 @@ nav > img {
   border: none;
   background: #fafafa;
   width: 80%;
+  height: 40px;
 }
 .label-2 {
   border-radius: 8px;
@@ -454,73 +455,65 @@ nav > img {
   line-height: 150%;
   letter-spacing: -0.63px;
 }
-#hiring-partner-section
-{
-    width: 100%;
-    height: 750px;
-    padding: 70px;
-    background-color: white;
+#hiring-partner-section {
+  width: 100%;
+  height: 750px;
+  padding: 70px;
+  background-color: white;
 }
-.hiring-head
-{
-    text-align: center;
-    line-height: 30px;
+.hiring-head {
+  text-align: center;
+  line-height: 30px;
 }
-.hiring-head > h5
-{
-    color: #992FED;
-    font-size: 18px;
-    font-style: italic;
-    font-weight: 400;
+.hiring-head > h5 {
+  color: #992fed;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 400;
 }
-.hiring-head > h1{
-    color: #2B2F34;
-    font-size: 42px;
-    font-style: italic;
-    font-weight: 500;
-    line-height: 63px;
+.hiring-head > h1 {
+  color: #2b2f34;
+  font-size: 42px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 63px;
 }
-.hiring-head > h2{
-    color: #2F80ED;
-    font-size: 42px;
-    font-style: italic;
-    font-weight: 500;
-    line-height: 60px;
+.hiring-head > h2 {
+  color: #2f80ed;
+  font-size: 42px;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 60px;
 }
-.hiring-head > p{
-    color: #595959;
-    font-size: 18px;
-    font-weight: 500;
-    line-height: 23.40px;
-    letter-spacing: 0.36px;
+.hiring-head > p {
+  color: #595959;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23.4px;
+  letter-spacing: 0.36px;
 }
-marquee
-{
-    margin-top: 60px;
-   
+marquee {
+  margin-top: 60px;
 }
-marquee >img
-{
-    width: 200px;
-    height: 50px;
-    margin-right: 40px;
+marquee > img {
+  width: 200px;
+  height: 50px;
+  margin-right: 40px;
 }
-#report
-{
-    margin-top: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#report {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-#report > span
-{
-    padding: 10px 20px;
-    font-size: 18px;
-    font-weight: 500;
-    font-style: italic;
-    color: white;
-    background-color: #2F80ED;
-    border-radius: 10px;
+#report > span {
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 500;
+  font-style: italic;
+  color: white;
+  background-color: #2f80ed;
+  border-radius: 10px;
 }
 
 .acciojob {
@@ -665,8 +658,13 @@ marquee >img
   }
   .hero-section,
   .diff-courses,
-  .main-card-div {
+  .main-card-div,
+  #blur-background {
     flex-direction: column;
+    align-items: center;
+  }
+  .hero-form{
+    margin-left: 0px;
     align-items: center;
   }
   .image-line-1,
@@ -681,7 +679,10 @@ marquee >img
     text-align: center;
     margin-bottom: 20px;
   }
-  .course-2{
+  .course-2 {
     margin-top: 20px;
+  }
+  .wall-of-love{
+    margin-top: 100px;
   }
 }
